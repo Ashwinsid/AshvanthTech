@@ -25,6 +25,20 @@ const blogPosts = [
     imageId: 'blog-3',
     slug: '/blog/the-importance-of-regular-laptop-maintenance',
   },
+  {
+    id: 4,
+    title: 'Myth vs. Fact: Laptop Battery Edition',
+    description: 'Does leaving your laptop plugged in kill the battery? We bust this and other common battery myths.',
+    imageId: 'blog-4',
+    slug: '/blog/myth-vs-fact-laptop-battery-edition',
+  },
+  {
+    id: 5,
+    title: 'Myth vs. Fact: PC Performance Boosters',
+    description: 'Will more RAM always make your PC faster? Let\'s look at the facts behind common performance beliefs.',
+    imageId: 'blog-5',
+    slug: '/blog/myth-vs-fact-pc-performance-boosters',
+  },
 ];
 
 export function BlogSection() {

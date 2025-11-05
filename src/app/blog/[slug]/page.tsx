@@ -56,6 +56,38 @@ const blogPosts = [
       <p class="mt-6">At Ashvanth Technologies in Chennai, our general maintenance service is a small investment that pays huge dividends in the long run. Keep your device in peak condition with our expert help.</p>
     `
   },
+  {
+    id: 4,
+    title: 'Myth vs. Fact: Laptop Battery Edition',
+    description: 'Does leaving your laptop plugged in kill the battery? We bust this and other common battery myths.',
+    imageId: 'blog-4',
+    slug: 'myth-vs-fact-laptop-battery-edition',
+    content: `
+      <p>Laptop batteries are surrounded by myths. Let's separate fact from fiction to help you maximize your battery's lifespan and performance.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">Myth: Leaving your laptop plugged in all the time ruins the battery.</h3>
+      <p><strong>Fact:</strong> Modern laptops are smart. They stop charging once the battery is full, so you can't "overcharge" it. While it's true that keeping a battery at 100% constantly can slightly reduce its long-term lifespan, it's far better than frequently draining it to 0%. For most users, leaving it plugged in when you're at a desk is perfectly fine.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">Myth: You should always drain your battery completely before recharging.</h3>
+      <p><strong>Fact:</strong> This was true for older nickel-cadmium batteries but is harmful to modern lithium-ion batteries. These batteries prefer partial discharges and recharges. Regularly draining them to zero can actually shorten their lifespan. It's best to keep the charge between 20% and 80% for optimal health.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">Myth: Third-party chargers will damage your battery.</h3>
+      <p><strong>Fact:</strong> While it's always safest to use the manufacturer's charger, a reputable third-party charger with the correct voltage and wattage specifications is generally safe. The danger comes from cheap, uncertified chargers which can provide unstable power and damage your laptop. If you need a replacement, ask a professional at Ashvanth Technologies to recommend a safe alternative.</p>
+    `
+  },
+  {
+    id: 5,
+    title: 'Myth vs. Fact: PC Performance Boosters',
+    description: 'Will more RAM always make your PC faster? Let\'s look at the facts behind common performance beliefs.',
+    imageId: 'blog-5',
+    slug: 'myth-vs-fact-pc-performance-boosters',
+    content: `
+      <p>Everyone wants a faster computer, but there's a lot of misinformation out there about how to achieve it. Let's debunk some common myths.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">Myth: Defragmenting your SSD will speed it up.</h3>
+      <p><strong>Fact:</strong> Defragmentation is a process for Hard Disk Drives (HDDs) that physically reorganizes scattered data. Solid State Drives (SSDs) access all data at the same speed, regardless of its physical location. Defragmenting an SSD is not only unnecessary but can also reduce its lifespan by performing needless write operations. Windows and macOS know this and handle SSDs appropriately, so you can leave this "optimization" to the OS.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">Myth: More RAM always equals more speed.</h3>
+      <p><strong>Fact:</strong> RAM (Random Access Memory) is crucial for multitasking. If you often have many applications, browser tabs, and background processes running, adding more RAM can make your system feel much faster. However, if your computer already has enough RAM for your typical workload (e.g., you have 16GB but only use 6GB), adding more won't provide any noticeable speed boost for your day-to-day tasks. In that case, upgrading your CPU or switching from an HDD to an SSD would be a much more impactful upgrade.</p>
+      <h3 class="font-headline text-xl font-bold mt-6 mb-2">Myth: "Cleaning" software is essential for a fast PC.</h3>
+      <p><strong>Fact:</strong> While it's good to periodically clear temporary files and your browser cache, many third-party "PC cleaner" or "optimizer" programs are snake oil. At best, they offer minimal performance gains that you could achieve yourself with built-in tools like Windows' Disk Cleanup. At worst, they can be bundled with malware or delete important system files. Stick to trusted maintenance routines and avoid the hype.</p>
+    `
+  }
 ];
 
 export default function BlogPostPage({ params }: { params: { slug: string } }) {

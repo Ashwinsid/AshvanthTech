@@ -23,6 +23,18 @@
       "description": "Laptop screen with code.",
       "imageUrl": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsYXB0b3AlMjBjb2RlfGVufDB8fHx8MTc2MjMxMTc5Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "laptop code"
+    },
+    {
+      "id": "blog-4",
+      "description": "A laptop battery with a question mark symbol superimposed.",
+      "imageUrl": "https://images.unsplash.com/photo-1576834975354-ee694be1f0d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiYXR0ZXJ5JTIwcXVlc3Rpb258ZW58MHx8fHwxNzYyMzE5NzQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "battery question"
+    },
+    {
+      "id": "blog-5",
+      "description": "A person choosing between RAM and an SSD for a computer upgrade.",
+      "imageUrl": "https://images.unsplash.com/photo-1758780690553-8bc703fabca6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb21wdXRlciUyMHVwZ3JhZGV8ZW58MHx8fHwxNzYyMzE5NzQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "computer upgrade"
     }
   ]
 }
