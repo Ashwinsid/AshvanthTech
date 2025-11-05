@@ -20,8 +20,8 @@ export function Hero() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button asChild size="lg" className="font-semibold">
-              <a href="#diagnose">
-                Diagnose Your Problem <ArrowRight className="ml-2" />
+              <a href="#services">
+                Our Services <ArrowRight className="ml-2" />
               </a>
             </Button>
             <Button asChild size="lg" variant="outline" className="font-semibold">

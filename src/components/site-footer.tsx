@@ -21,7 +21,6 @@ export function SiteFooter() {
           <h3 className="font-headline font-semibold mb-4 text-foreground">Quick Links</h3>
           <ul className="space-y-2">
             <li><a href="#services" className="text-muted-foreground hover:text-foreground transition-colors">Services</a></li>
-            <li><a href="#diagnose" className="text-muted-foreground hover:text-foreground transition-colors">Diagnose Problem</a></li>
             <li><a href="#blog" className="text-muted-foreground hover:text-foreground transition-colors">Blog</a></li>
           </ul>
         </div>

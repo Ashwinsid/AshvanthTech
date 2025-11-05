@@ -15,17 +15,17 @@ export function SiteHeader() {
         </div>
         <div className="flex flex-1 items-center justify-end space-x-4">
           <nav className="flex items-center space-x-2">
-             <Link
-              href="/blog-topic-generator"
+            <Link
+              href="/#blog"
               className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
             >
-              Blog Tool
+              Blog
             </Link>
             <Link
-              href="/seo-optimizer"
+              href="/#services"
               className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
             >
-              SEO Tool
+              Services
             </Link>
           </nav>
         </div>
