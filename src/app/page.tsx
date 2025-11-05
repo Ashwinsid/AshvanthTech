@@ -3,12 +3,15 @@ import { Services } from '@/components/home/services';
 import { BlogSection } from '@/components/home/blog-section';
 import { Separator } from '@/components/ui/separator';
 import { ContactSection } from '@/components/home/contact-section';
+import { Testimonials } from '@/components/home/testimonials';
 
 export default function HomePage() {
   return (
     <>
       <Hero />
       <Services />
+      <Separator className="my-12 md:my-16" />
+      <Testimonials />
       <Separator className="my-12 md:my-16" />
       <BlogSection />
       <Separator className="my-12 md:my-16" />
