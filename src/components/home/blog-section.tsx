@@ -1,4 +1,4 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardTitle, CardDescription } from '@/components/ui/card';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -9,21 +9,21 @@ const blogPosts = [
     title: '5 Signs Your Laptop Needs a Service',
     description: 'Is your laptop slowing down or acting up? Here are five key indicators that it\'s time for a professional check-up.',
     imageId: 'blog-1',
-    slug: '#',
+    slug: '/blog/5-signs-your-laptop-needs-a-service',
   },
   {
     id: 2,
     title: 'SSD vs. HDD: Which Upgrade is Right for You?',
     description: 'We break down the differences between Solid State Drives and Hard Disk Drives to help you make an informed decision.',
     imageId: 'blog-2',
-    slug: '#',
+    slug: '/blog/ssd-vs-hdd-which-upgrade-is-right-for-you',
   },
   {
     id: 3,
     title: 'The Importance of Regular Laptop Maintenance',
     description: 'Learn why proactive maintenance can save you money and extend the life of your device. A key service in Chennai.',
     imageId: 'blog-3',
-    slug: '#',
+    slug: '/blog/the-importance-of-regular-laptop-maintenance',
   },
 ];
 

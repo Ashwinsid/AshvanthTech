@@ -22,6 +22,7 @@ export function SiteFooter() {
           <ul className="space-y-2">
             <li><a href="#services" className="text-muted-foreground hover:text-foreground transition-colors">Services</a></li>
             <li><a href="#blog" className="text-muted-foreground hover:text-foreground transition-colors">Blog</a></li>
+            <li><a href="#contact" className="text-muted-foreground hover:text-foreground transition-colors">Contact</a></li>
           </ul>
         </div>
         
@@ -30,9 +31,9 @@ export function SiteFooter() {
           <ul className="space-y-3">
             <li className="flex items-start gap-3">
               <MapPin className="h-4 w-4 mt-1 text-primary shrink-0" />
-              <span className="text-muted-foreground">
+              <a href="https://maps.app.goo.gl/ad5zfvCREF75uApN9" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
                 123 Tech Street, Medavakkam,<br />Chennai, Tamil Nadu 600100
-              </span>
+              </a>
             </li>
             <li className="flex items-start gap-3">
               <Phone className="h-4 w-4 mt-1 text-primary shrink-0" />
