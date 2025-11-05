@@ -5,7 +5,7 @@ import { SiteHeader } from '@/components/site-header';
 import { SiteFooter } from '@/components/site-footer';
 import { WhatsAppButton } from '@/components/whatsapp-button';
 
-const SvgFavicon = "data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 88' fill='none'%3e%3cpath d='M50 0L0 88H16L24.4648 74H75.5352L84 88H100L50 0ZM32.3652 60L50 29.28L67.6348 60H32.3652Z' fill='hsl(0 72% 51%)'/%3e%3c/svg%3e";
+const SvgFavicon = "data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 88' fill='none'%3e%3cpath d='M50 0L0 88H16L24.4648 74H75.5352L84 88H100L50 0ZM50 29.28L62.0656 60H37.9344L50 29.28Z' fill='hsl(0 72% 51%)'/%3e%3c/svg%3e";
 
 export const metadata: Metadata = {
   title: 'Ashvanth Technologies | Expert Laptop Service in Chennai & Medavakkam',
