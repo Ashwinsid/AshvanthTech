@@ -1,6 +1,7 @@
 import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { Wrench, ShoppingCart } from 'lucide-react';
+import { Wrench, ShoppingCart, ArrowRight } from 'lucide-react';
 import Image from 'next/image';
+import { Button } from '@/components/ui/button';
 
 const services = [
   {
@@ -49,6 +50,13 @@ export function Services() {
               </CardDescription>
             </Card>
           ))}
+        </div>
+        <div className="text-center mt-12">
+          <Button asChild size="lg" className="font-semibold">
+            <a href="#contact">
+              Get a Quote <ArrowRight className="ml-2" />
+            </a>
+          </Button>
         </div>
       </div>
     </section>
