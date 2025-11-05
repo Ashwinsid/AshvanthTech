@@ -25,7 +25,7 @@ export function Hero() {
               </a>
             </Button>
             <Button asChild size="lg" variant="outline" className="font-semibold">
-              <a href="tel:09855999998">Call Us Now</a>
+              <a href="tel:+919855999998">Call Us Now</a>
             </Button>
           </div>
         </div>

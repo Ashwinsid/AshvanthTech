@@ -37,8 +37,8 @@ export function SiteFooter() {
             </li>
             <li className="flex items-start gap-3">
               <Phone className="h-4 w-4 mt-1 text-primary shrink-0" />
-              <a href="tel:09855999998" className="text-muted-foreground hover:text-foreground transition-colors">
-                098559 99998
+              <a href="tel:+919855999998" className="text-muted-foreground hover:text-foreground transition-colors">
+                +91 98559 99998
               </a>
             </li>
             <li className="flex items-start gap-3">
