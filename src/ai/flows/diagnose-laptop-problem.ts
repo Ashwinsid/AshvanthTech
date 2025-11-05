@@ -29,11 +29,11 @@ const prompt = ai.definePrompt({
   name: 'diagnoseLaptopProblemPrompt',
   input: {schema: DiagnoseLaptopProblemInputSchema},
   output: {schema: DiagnoseLaptopProblemOutputSchema},
-  prompt: `You are a highly skilled laptop technician. A customer will describe their laptop's symptoms, and you will provide potential issues and recommended services.
+  prompt: `You are a highly skilled laptop technician. A customer will describe their laptop's symptoms, and you will provide a list of potential issues and recommended services.
 
 Symptoms: {{{symptoms}}}
 
-Based on these symptoms, identify potential hardware or software issues and suggest appropriate services.
+Based on these symptoms, identify potential hardware or software issues and suggest appropriate repair or maintenance services. Provide your answer in the requested JSON format.
 `,
 });
 
@@ -45,6 +45,9 @@ const diagnoseLaptopProblemFlow = ai.defineFlow(
   },
   async input => {
     const {output} = await prompt(input);
-    return output!;
+    if (!output) {
+      throw new Error('The AI model did not return a valid diagnosis.');
+    }
+    return output;
   }
 );

@@ -31,7 +31,7 @@ export function DiagnosisTool() {
   const { toast } = useToast();
 
   useEffect(() => {
-    if (state.message === 'An error occurred during diagnosis.') {
+    if (state.message && state.message !== 'Success' && state.message !== 'Validation failed') {
       toast({
         variant: 'destructive',
         title: 'Error',

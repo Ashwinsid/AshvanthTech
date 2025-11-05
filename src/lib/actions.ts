@@ -35,9 +35,9 @@ export async function diagnoseProblemAction(prevState: DiagnoseState, formData: 
   try {
     const result = await diagnoseLaptopProblem({ symptoms: validatedFields.data.symptoms });
     return { message: 'Success', data: result };
-  } catch (error) {
+  } catch (error: any) {
     console.error(error);
-    return { message: 'An error occurred during diagnosis.' };
+    return { message: `An error occurred during diagnosis: ${error.message}` };
   }
 }
 
