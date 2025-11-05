@@ -1,6 +1,7 @@
 'use client';
 
-import { useFormState, useFormStatus } from 'react-dom';
+import { useActionState } from 'react';
+import { useFormStatus } from 'react-dom';
 import { generateTopicsAction } from '@/lib/actions';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -27,7 +28,7 @@ function SubmitButton() {
 }
 
 export default function BlogTopicGeneratorPage() {
-  const [state, formAction] = useFormState(generateTopicsAction, initialState);
+  const [state, formAction] = useActionState(generateTopicsAction, initialState);
   const { toast } = useToast();
 
   useEffect(() => {

@@ -1,6 +1,7 @@
 'use client';
 
-import { useFormState, useFormStatus } from 'react-dom';
+import { useActionState } from 'react';
+import { useFormStatus } from 'react-dom';
 import { diagnoseProblemAction } from '@/lib/actions';
 import { Button } from '@/components/ui/button';
 import { Textarea } from '@/components/ui/textarea';
@@ -26,7 +27,7 @@ function SubmitButton() {
 }
 
 export function DiagnosisTool() {
-  const [state, formAction] = useFormState(diagnoseProblemAction, initialState);
+  const [state, formAction] = useActionState(diagnoseProblemAction, initialState);
   const { toast } = useToast();
 
   useEffect(() => {

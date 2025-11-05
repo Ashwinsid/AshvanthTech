@@ -1,6 +1,7 @@
 'use client';
 
-import { useFormState, useFormStatus } from 'react-dom';
+import { useActionState } from 'react';
+import { useFormStatus } from 'react-dom';
 import { improveSeoAction } from '@/lib/actions';
 import { Button } from '@/components/ui/button';
 import { Textarea } from '@/components/ui/textarea';
@@ -26,7 +27,7 @@ function SubmitButton() {
 }
 
 export default function SeoOptimizerPage() {
-  const [state, formAction] = useFormState(improveSeoAction, initialState);
+  const [state, formAction] = useActionState(improveSeoAction, initialState);
   const { toast } = useToast();
 
   useEffect(() => {
