@@ -1,4 +1,3 @@
-
 'use client';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
@@ -7,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
+import { MapPin } from 'lucide-react';
 
 const formSchema = z.object({
   name: z.string().min(2, {
@@ -93,7 +93,7 @@ export function ContactSection() {
         </div>
         <div className="relative rounded-xl overflow-hidden aspect-video md:aspect-auto">
            <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.118933226467!2d80.20387061528699!3d12.96425099086053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d8b8a8b8b8b%3A0xad5zfvCREF75uApN9!2sAshvanth%20Technologies!5e0!3m2!1sen!2sin!4v1620831191069!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.118933226467!2d80.20387061528699!3d12.96425099086053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525e3d78234567%3A0x6d4e1155361365e0!2sAshvanth%20Technologies!5e0!3m2!1sen!2sin!4v1620831191069!5m2!1sen!2sin"
             width="100%" 
             height="100%" 
             style={{border:0}} 
@@ -103,6 +103,14 @@ export function ContactSection() {
             title="Ashvanth Technologies Location"
             className='absolute top-0 left-0 w-full h-full'
           ></iframe>
+           <div className="absolute bottom-4 left-4">
+            <Button asChild>
+              <a href="https://maps.app.goo.gl/ad5zfvCREF75uApN9" target="_blank" rel="noopener noreferrer">
+                <MapPin className="mr-2 h-4 w-4" />
+                Get Directions
+              </a>
+            </Button>
+          </div>
         </div>
       </div>
     </section>
