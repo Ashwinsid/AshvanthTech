@@ -1,4 +1,5 @@
-import { Laptop, MapPin, Phone, Clock } from 'lucide-react';
+import { Logo } from '@/components/icons/logo';
+import { MapPin, Phone, Clock } from 'lucide-react';
 import Link from 'next/link';
 
 export function SiteFooter() {
@@ -7,7 +8,7 @@ export function SiteFooter() {
       <div className="container grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
         <div className="flex flex-col items-start gap-4">
           <Link href="/" className="flex items-center space-x-2">
-            <Laptop className="h-6 w-6 text-primary" />
+            <Logo className="h-6 w-6 text-primary" />
             <span className="font-bold font-headline text-lg">
               Ashvanth Technologies
             </span>
