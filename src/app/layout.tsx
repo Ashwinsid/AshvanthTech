@@ -8,7 +8,7 @@ import { WhatsAppButton } from '@/components/whatsapp-button';
 export const metadata: Metadata = {
   title: 'Ashvanth Technologies | Expert Laptop Service in Chennai & Medavakkam',
   description: 'Ashvanth Technologies offers expert laptop repair, maintenance, and upgrade services in Chennai and Medavakkam. Fast, reliable solutions for all your laptop problems.',
-  keywords: 'laptop service, laptop repair, laptop maintenance, laptop upgrades, Chennai, Medavakkam, Ashvanth Technologies',
+  keywords: 'laptop service, laptop repair, laptop maintenance, laptop upgrades, Chennai, Medavakkam, Ashvanth Technologies, laptop service center near me, laptop service center in chennai, Laptop service center in medavakkam contact number, Dell laptop service center in medavakkam, laptop repair center, Best laptop service center in medavakkam, laptop service center chennai, asus laptop service center, acer laptop service center near me, lenovo laptop service center, Laptop service center in medavakkam near me, dell laptop service near me, Laptop service center in medavakkam chennai, hp laptop service',
 };
 
 export default function RootLayout({
