@@ -20,11 +20,11 @@ export function Services() {
     <section id="services" className="relative py-12 md:py-20">
       <div className="absolute inset-0">
         <Image
-          src="https://images.unsplash.com/photo-1593640408182-01c74c7d62dc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt="Laptop repair service"
+          src="https://storage.googleapis.com/project-starlight-95096.appspot.com/thumbnails/3b999a0a-e2a2-4a47-a720-3b02a2818987.png"
+          alt="Laptop motherboard"
           fill
           className="object-cover"
-          data-ai-hint="laptop repair service"
+          data-ai-hint="computer motherboard"
         />
         <div className="absolute inset-0 bg-background/80" />
       </div>
