@@ -82,3 +82,12 @@
     );
   }
 }
+
+@keyframes shine {
+  0% {
+    transform: translateX(-100%) rotate(0deg);
+  }
+  100% {
+    transform: translateX(100%) rotate(0deg);
+  }
+}
